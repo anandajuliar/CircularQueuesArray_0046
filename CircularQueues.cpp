@@ -39,3 +39,10 @@ public:
         }
     queues_array[REAR] = num; // Menambahkan elemen ke antrian
     }
+
+    // Method untuk menghapus elemen dari queue
+    void remove() {
+
+
+
+
