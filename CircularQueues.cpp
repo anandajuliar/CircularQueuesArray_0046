@@ -42,6 +42,12 @@ public:
 
     // Method untuk menghapus elemen dari queue
     void remove() {
+        // cek apakah antrian kosong // ini
+        if (FRONT == -1) {
+            cout << "Queues Underflow\n";
+            return;
+        }
+        cout << "\nThe element deleted from the queue is : " << queues_array[FRONT] << "\n";
 
 
 
